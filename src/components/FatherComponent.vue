@@ -1,14 +1,14 @@
 <template>
   <div class="bg-dark text-white">
     <div class="container pt-5">
-      <h1 class="pt-5 text-center  text-uppercase">
-       Número del componente padre: {{ $store.state.number }}
+      <h1 class="pt-5 text-center text-uppercase">
+        Número del componente padre: {{ $store.state.number }}
       </h1>
       <br />
       <button class="btn btn-primary" @click="$store.commit('aumentar')">
         <b>+</b>
       </button>
-      <br>
+      <br />
       <br />
       <div>
         <SonComponent />
